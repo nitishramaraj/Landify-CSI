@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+.logo{
+    cursor: pointer;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+/* NAVBAR MENU */
+nav li {
+  display: flex;
+  font-weight: 50;
+  gap: 1em;
+  font-size: 18px;
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  font-weight: 550;
+  font-size: 15px;
+  line-height: 54px;
+  transition: transform .4s;
+}
+nav li:hover {
+    color: #000;
+    background-color: rgb(217, 232, 239);
+    border-radius: 20px;
+    transition: 0.3s ease;
+    text-decoration: none;
+   }
+nav li {
+  padding: 5px 14px;
+}
+
+.base {
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    rgb(217, 232, 239) 0%,
+    rgb(217, 232, 239) 50%,
+    rgb(231, 241, 243) 50%,
+    rgb(231, 241, 243) 100%
+  );
+}
+
+.ship {
+  height: 80vh;
+  width: auto;
+  position: absolute;
+  right: 0%;
+  top: 20%;
+}
+
+.content{
+    position: absolute;
+    top:30%;
+    left:10%;
+}
+
+.content h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    padding-bottom: 5%;
+    cursor: pointer;
+
+}
+
+.content p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding-bottom: 5% ;
+}
+
+.content .line{
+    position: absolute;
+    top: 90%;
+    left: 17%;
+}
+
+.content .discover{
+    position: absolute;
+    top: 85.7%;
+    left: 45%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.content .discover a{
+    text-decoration: none;
+    color: black;
+    transition: transform .5s;
+}
+
+.discover:hover{
+    transform: scale(1.2);
+}
+
+
+/* PAGE 2 */
+
+.page_2{
+    height: 110vh;
+}
+
+.page_2 .info{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 0%;
+    padding-top: 5%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.page_2 h2{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.page_2 p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: text;
+}
+
+.page_2 .page2_cover{
+    position: absolute;
+    top:135% ;
+    left: 7%;
+    cursor: pointer;
+}
+
+
+.feedback{
+    height: 40vh;
+    background: rgba(217, 232, 239, 1);
+}
+
+.feedback .client{
+    position: absolute;
+    top: 225%;
+    padding-left: 10%;
+    cursor: pointer;
+}
+
+.feedback .reviews{
+    position: absolute;
+    top: 218%;
+    right: 8%;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+footer{
+    height: 15vh ;
+    background-color: black;
+    padding-top: 3%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around
+}
+
+footer .copyright{
+    color: whitesmoke;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline;   
+}
